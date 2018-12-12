@@ -1,0 +1,104 @@
+html, body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    background: blanchedalmond;
+    text-align: center
+  }
+ 
+  .barrainicio{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+     background: black;
+  }
+    
+  .slider-container{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 80%;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-bottom: 5%
+    
+  }
+  
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0; 
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: wheat;
+    border-radius: 50px;
+    margin: 0 32px 10px;
+   
+}
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+  }
+  
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+  }
+  
+  .slide-1 {
+    background-image: url(./evento1.jpg);
+   
+    
+  }
+  .slide-2 {
+    background-image: url(./evento2.jpg);
+  }
+  .slide-3 {
+    background-image: url(./evento3.jpg);
+  }
+
+.slide-4{
+    background-image: url(./evento4.jpg);
+}
+.slide-5{
+    background-image: url(./evento5.jpg);
+}
+
+.encabezado2{
+  display: flex;
+  flex-wrap: wrap
+ 
+}
+ 
+.encabezado2 div{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 100px;
+text-align: center
+}
+
+.contenedor3 div{
+  margin-left: 360px;
+}

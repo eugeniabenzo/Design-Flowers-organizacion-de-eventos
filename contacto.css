@@ -1,0 +1,26 @@
+body{
+    font-family: 'Oswald', sans-serif; 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid cornflowerblue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; 
+    background: blanchedalmond
+}
+
+form[form=name]{
+    display: flex;
+    justify-content: center
+}
+
+input[type=text] {
+    border-radius: 30px;
+}
+
+input[type=envia]{
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 110px;
+}
